@@ -10,7 +10,7 @@
     "express": "^4.16.4"
   },
   "scripts": {
-    "start": "nodemon --exec babel-node index.js"
+    "start": "nodemon --exec babel-node index.js --delay 2"
   },
   "devDependencies": {
     "nodemon": "^1.18.6"
