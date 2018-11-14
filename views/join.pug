@@ -1,4 +1,11 @@
 extends layouts/main
 
 block content
-    p Join
+    .form__container
+        form(action="/login", method="post")
+            input(type="text", name="name", placeholder="Full Name")        
+            input(type="email", name="email", placeholder="Email")
+            input(type="password", name="password", placeholder="Password")
+            input(type="password", name="password2", placeholder="Verify Password")
+            input(type="submit",value="Join Now")
+        include partials/socialLogin
