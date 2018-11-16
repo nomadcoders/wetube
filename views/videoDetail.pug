@@ -1,15 +1,20 @@
 extends layouts/main
 
 block content
-    .video__player
-        video(src=`/${video.fileUrl}`)
-    .video__info
-        a(href=routes.editVideo(video.id)) Edit video
-        h5.video__title=video.title
-        span.video__views=video.views
-        p.video__description=video.description
-    .video__comments
-        if video.comments.length === 1
-            span.video__comment-number 1 comment
-        else
-            span.video__comment-number #{video.comments.length} comments
+    .video-detail__container
+        .video__player
+            video(src=`/${video.fileUrl}`)
+        .video__info
+            a(href=routes.editVideo(video.id))
+                button Edit video
+            h5.video__title=video.title
+            p.video__description=video.description
+            if video.views === 1
+                span.video__views 1 view
+            else 
+                span.video__views #{video.views} views
+        .video__comments
+            if video.comments.length === 1
+                span.video__comment-number 1 comment
+            else
+                span.video__comment-number #{video.comments.length} comments
