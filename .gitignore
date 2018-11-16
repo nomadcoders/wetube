@@ -76,3 +76,4 @@ typings/
 .fusebox/
 package-lock.json
 uploads
+static
