@@ -21,6 +21,12 @@
     "start": "nodemon --exec babel-node init.js --delay 2"
   },
   "devDependencies": {
-    "nodemon": "^1.18.6"
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "nodemon": "^1.18.6",
+    "prettier": "^1.15.2"
   }
 }
