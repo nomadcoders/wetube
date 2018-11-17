@@ -1,0 +1,24 @@
+.user-profile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  .user-profile__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 18px;
+    .profile__username {
+      font-size: 18px;
+      margin-top: 15px;
+    }
+  }
+  .user-profile__btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+}
