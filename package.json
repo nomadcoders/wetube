@@ -11,6 +11,7 @@
     "autoprefixer": "^9.3.1",
     "babel-loader": "^8.0.4",
     "body-parser": "^1.18.3",
+    "connect-mongo": "^2.0.1",
     "cookie-parser": "^1.4.3",
     "css-loader": "^1.0.1",
     "dotenv": "^6.1.0",
