@@ -466,7 +466,7 @@ input[type="submit"] {
          -moz-box-align: center;
           -ms-flex-align: center;
               align-items: center; }
-      .videoPlayer .videoPlayer__controls .videoPlayer__column:first-child span:first-child {
+      .videoPlayer .videoPlayer__controls .videoPlayer__column:first-child > span:first-child {
         margin-right: 10px; }
     .videoPlayer .videoPlayer__controls .videoPlayer__column:last-child {
       justify-self: end; }

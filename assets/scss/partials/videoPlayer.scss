@@ -25,7 +25,7 @@
     .videoPlayer__column:first-child {
       display: flex;
       align-items: center;
-      span:first-child {
+      & > span:first-child {
         margin-right: 10px;
       }
     }
