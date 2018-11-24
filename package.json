@@ -9,6 +9,7 @@
     "@babel/polyfill": "^7.0.0",
     "@babel/preset-env": "^7.1.5",
     "autoprefixer": "^9.3.1",
+    "axios": "^0.18.0",
     "babel-loader": "^8.0.4",
     "body-parser": "^1.18.3",
     "connect-mongo": "^2.0.1",
