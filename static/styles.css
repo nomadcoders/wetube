@@ -576,6 +576,20 @@ input[type="submit"] {
       width: 100%; }
       .video-detail__container .video__comments .add__comment input {
         width: 100%; }
+    .video-detail__container .video__comments .video__comments-list {
+      margin-top: 50px; }
+      .video-detail__container .video__comments .video__comments-list li {
+        background-color: #3498db;
+        color: white;
+        padding: 15px;
+        -webkit-border-radius: 20px;
+           -moz-border-radius: 20px;
+                border-radius: 20px;
+        -webkit-border-bottom-left-radius: 0px;
+           -moz-border-radius-bottomleft: 0px;
+                border-bottom-left-radius: 0px; }
+        .video-detail__container .video__comments .video__comments-list li:not(:last-child) {
+          margin-bottom: 15px; }
 
 .user-profile {
   width: 100%;
