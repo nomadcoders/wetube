@@ -1,0 +1,38 @@
+@keyframes flashAnimation {
+  0% {
+    transform: translateY(-70px);
+  }
+  5% {
+    transform: translateY(0px);
+  }
+  95% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-70px);
+  }
+}
+
+.flash-message__container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+  padding: 20px;
+  text-align: center;
+  animation: flashAnimation 5s ease-in-out forwards;
+  &.error {
+    background-color: #e74c3c;
+  }
+  &.success {
+    background-color: #2ecc71;
+  }
+  &.info {
+    background-color: #f1c40f;
+  }
+  .flash-message__text {
+    color: white;
+    font-size: 14px;
+  }
+}
