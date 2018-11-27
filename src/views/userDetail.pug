@@ -6,7 +6,7 @@ block content
         .user-profile__header
             img.u-avatar(src=user.avatarUrl)
             h4.profile__username=user.name
-        if user.id === loggedUser.id
+        if loggedUser && loggedUser.id === user.id
             .user-profile__btns
                 a(href=`/users${routes.editProfile}`)
                     button ✏️ Edit Profile
